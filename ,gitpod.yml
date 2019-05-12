@@ -1,1 +1,10 @@
-
+image:
+  file: gitpod.dockerfile
+ports:
+- port: 8080
+  onOpen: open-preview
+tasks:
+- name: Apache
+  command: >
+    apachectl start &&
+    multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
