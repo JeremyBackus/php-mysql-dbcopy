@@ -13,9 +13,9 @@ $WaitBetweenChunks = 1; // seconds
 //$DoNotInsertRows = true;
 //$DoNotCreateTargetTables = true;
 
-$source_server = "db1.simplewebs.com";
-$source_db = "db1";
-$source_table = "test_data";
+$source_server = "db2.simplewebs.com";
+$source_db = "db2";
+$source_table = "test_datax";
 
 $source_db_user = "admin";
 $source_db_pass = "abc#12345";
